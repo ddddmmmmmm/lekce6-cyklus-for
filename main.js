@@ -7,8 +7,9 @@
 
 //TADY NAPIS CYKLUS
 
-for (let i = 0; i <= 10; i = i + 1) {
-    // nebo   for (let i = 0; i <= 10; i++) { console.log(i); }
+let i = 0
+while (i < 10) {
+    i = i + 1; //nebo  i++
     console.log(i);
 }
 
@@ -20,10 +21,10 @@ for (let i = 0; i <= 10; i = i + 1) {
 
 //TADY NAPIS CYKLUS
 
-
-for (let i = 0; i < 10; i = i + 1) {
-    // nebo  for (let i = 0; i < 10; i++) 
-    console.log(i);
+let a = 0;
+while (a <= 10) {
+    a++;
+    console.log(a)
 }
 
 
@@ -32,6 +33,10 @@ for (let i = 0; i < 10; i = i + 1) {
 
 //TADY NAPIS CYKLUS
 
-for (let i = 10; i >= 0; i = i - 1) {
-    console.log(i);
+
+let b = 10
+while (b > 0) {
+    console.log(b);
+    b = b - 1;
+
 }
